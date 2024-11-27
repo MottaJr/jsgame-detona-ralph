@@ -36,10 +36,15 @@
   background-size: cover;
 }
 
+
 .menu-lives {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#life:before {
+  content: "x";
 }
 
 .menu-time h2:nth-child(2),
